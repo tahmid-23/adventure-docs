@@ -16,7 +16,9 @@ allow you to obtain ``Audience`` instances from native user types.
    bukkit
    bungeecord
    spongeapi
+   modded
    fabric
+   neoforge
    viaversion
 
 
