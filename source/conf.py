@@ -31,7 +31,7 @@ author = 'KyoriPowered'
 api_version = '4.17.0'
 
 # The latest versions of adventure-platform builds
-platform_version = '4.3.3'
+platform_version = '4.3.4'
 platform_fabric_version = '5.14.1'
 
 # The latest version of the ansi library
@@ -65,6 +65,9 @@ if 'GITHUB_REF' in os.environ:
         html_baseurl = "https://docs.advntr.dev/"
 
     ogp_site_url = html_baseurl
+
+gettext_compact = False
+locale_dirs = [ '../locale/']
 
 # -- General configuration ---------------------------------------------------
 
