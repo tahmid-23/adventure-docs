@@ -2,7 +2,7 @@
 Modded (Fabric and NeoForge shared API)
 =======================================
 
-Starting with *Minecraft: Java Edition* 1.21.1, Adventure is implemented using mostly shared code between NeoForge and Fabric.
+Starting with *Minecraft: Java Edition* 1.21.2, Adventure is implemented using mostly shared code between NeoForge and Fabric.
 Each major version of Minecraft will usually require a new release of the platform.
 
 The platform supports all features, including localization and custom renderers.
@@ -70,10 +70,10 @@ First, add the repository:
 
          dependencies {
             // Loom project
-            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21
+            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21-1.21.1
 
             // NeoGradle/ModDevGradle/VanillaGradle project
-            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21
+            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21-1.21.1
          }
 
 
@@ -85,10 +85,10 @@ First, add the repository:
 
          dependencies {
             // Loom project
-            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21
+            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21-1.21.1
 
             // NeoGradle/ModDevGradle/VanillaGradle project
-            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21
+            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21-1.21.1
          }
 
 
@@ -101,7 +101,7 @@ First, add the repository:
       ================= ================= ===========================================================
       Minecraft Version Adventure version ``adventure-platform-(mod-shared|fabric|neoforge)`` version
       ================= ================= ===========================================================
-      1.21              4.17.0            6.0.0
+      1.21-1.21.1       4.17.0            6.0.0
       ================= ================= ===========================================================
 
 ---------
