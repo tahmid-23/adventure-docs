@@ -10,7 +10,7 @@ When using at least version 5.3.0, this platform provides a *near-native* experi
 
 .. attention::
 
-   Version 6.x of Adventure platform Fabric, utilizing a shared implementation with NeoForge (see :doc:`/platform/modded`)
+   Version 6.x of adventure-platform-fabric, utilizing a shared implementation with NeoForge (see :doc:`/platform/modded`)
    is not published for Minecraft 1.20-1.21.1. This is to avoid conflicts with existing mods using 5.x.
    Starting with Minecraft 1.21.2, both platforms have version 6.x published.
 
