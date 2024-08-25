@@ -8,6 +8,12 @@ The platform supports all features, including localization and custom renderers.
 
 When using at least version 5.3.0, this platform provides a *near-native* experience by directly implementing Adventure interfaces on Minecraft classes where possible.
 
+.. attention::
+
+   Version 6.x of adventure-platform-fabric, utilizing a shared implementation with NeoForge (see :doc:`/platform/modded`)
+   is not published for Minecraft 1.20-1.21.1. This is to avoid conflicts with existing mods using 5.x.
+   Starting with Minecraft 1.21.2, both platforms have version 6.x published.
+
 ----------
 Dependency
 ----------
@@ -60,7 +66,7 @@ First, add the repository:
         :substitutions:
 
          dependencies {
-            modImplementation include("net.kyori:adventure-platform-fabric:|fabric_version|") // for Minecraft 1.21
+            modImplementation include("net.kyori:adventure-platform-fabric:|fabric_version|") // for Minecraft 1.21-1.21.1
          }
 
 
@@ -71,7 +77,7 @@ First, add the repository:
         :substitutions:
 
          dependencies {
-            modImplementation(include("net.kyori:adventure-platform-fabric:|fabric_version|")!!) // for Minecraft 1.21
+            modImplementation(include("net.kyori:adventure-platform-fabric:|fabric_version|")!!) // for Minecraft 1.21-1.21.1
          }
 
 The Fabric platform requires *fabric-api-base* in order to provide the locale change event, *fabric-command-api-v2* for the callback click event, and can optionally use Colonel_ (or *fabric-networking-api-v1*) to allow the ``Component`` and ``Key`` argument types to be used on clients without the mod installed. There are no other dependencies.
