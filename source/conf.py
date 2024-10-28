@@ -32,13 +32,12 @@ api_version = '4.17.0'
 
 # The latest versions of adventure-platform builds
 platform_version = '4.3.4'
-platform_fabric_version = '5.14.2'
-platform_modded_version = '6.0.1'
+platform_mod_version = '6.1.0'
 
 # The latest version of the ansi library
 ansi_version = '1.1.0'
 
-dependency_versions = {'api': api_version, 'platform': platform_version, 'platform_fabric': platform_fabric_version, 'ansi': ansi_version}
+dependency_versions = {'api': api_version, 'platform': platform_version, 'platform_mod': platform_mod_version, 'ansi': ansi_version}
 
 # The full api version, including alpha/beta/rc tags
 release = api_version
@@ -47,8 +46,7 @@ if release.endswith('-SNAPSHOT'):
     tags.add('draft')
 
 rst_prolog = f"""
-.. |fabric_version| replace:: {platform_fabric_version}
-.. |modded_version| replace:: {platform_modded_version}
+.. |mod_version| replace:: {platform_mod_version}
 """
 
 if 'GITHUB_REF' in os.environ:

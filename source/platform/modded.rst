@@ -70,10 +70,10 @@ First, add the repository:
 
          dependencies {
             // Loom project
-            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21-1.21.1
+            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|mod_version|") // for Minecraft 1.21.2-1.21.3
 
             // NeoGradle/ModDevGradle/VanillaGradle project
-            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21-1.21.1
+            compileOnly("net.kyori:adventure-platform-mod-shared:|mod_version|") // for Minecraft 1.21.2-1.21.3
          }
 
 
@@ -85,10 +85,10 @@ First, add the repository:
 
          dependencies {
             // Loom project
-            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|modded_version|") // for Minecraft 1.21-1.21.1
+            modCompileOnly("net.kyori:adventure-platform-mod-shared-fabric-repack:|mod_version|") // for Minecraft 1.21.2-1.21.3
 
             // NeoGradle/ModDevGradle/VanillaGradle project
-            compileOnly("net.kyori:adventure-platform-mod-shared:|modded_version|") // for Minecraft 1.21-1.21.1
+            compileOnly("net.kyori:adventure-platform-mod-shared:|mod_version|") // for Minecraft 1.21.2-1.21.3
          }
 
 
