@@ -141,6 +141,7 @@ To insert a list of components, you can use the list formatter.
 
 This tag resolver will join components together.
 It will accept three arguments, all of which are optional but must be provided in order and with all preceding arguments present:
+
 #. The separator to use between components (defaults to no separator).
 #. The separator to use between the last two components (defaults to the first argument).
 #. The separator to use between the last two components if there are more than two components (defaults to the second argument).
